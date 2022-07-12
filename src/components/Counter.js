@@ -5,8 +5,8 @@ class Counter extends React.Component {
         return (
             <div>
                 <h2>{this.props.count}</h2>
-                <button className='btnMin' onClick={this.props.substract}>-</button>
-                <button className='btnPlus' onClick={this.props.increment}>+</button>
+                <button className='btn btnMin' onClick={this.props.substract}>-</button>
+                <button className='btn btnPlus' onClick={this.props.increment}>+</button>
             </div>
         )
     }

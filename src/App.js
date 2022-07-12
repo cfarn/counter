@@ -30,7 +30,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <>
+      <div className='container'>
         <h1>Counter</h1>
         <Counter 
           count = {this.state.count}
@@ -38,7 +38,7 @@ class App extends React.Component {
           increment = {this.handleClickPlus}
           
         />
-      </>
+      </div>
     )
   }
 }
