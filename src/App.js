@@ -16,7 +16,9 @@ class App extends React.Component {
     // les méthodes doivent être déclarées en dehors du constructeur
     handleClickMin = () => {
       this.setState((state) => {
-        return {count:state.count-1}
+        if(state.count > 0) {
+          return {count:state.count-1}
+        }
       })
     }
     handleClickPlus= () => {
