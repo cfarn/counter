@@ -5,6 +5,10 @@ body {
 .container {
     text-align: center;
 }
+.counter {
+    margin: 50px 100px;
+    padding: 10px;
+}
 h1 {
     color: #4169E1;
     text-transform: uppercase;
